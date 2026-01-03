@@ -54,6 +54,7 @@ To bypass standard rate limits, you need distinct projects.
 2.  Create a key. **Important:** Select **"Create API key in a NEW project"** for each key.
 3.  Repeat 3-5 times.
     * *Technical Note:* Sharing one project across 5 keys does not increase your quota. Distinct projects are required for the load balancer to work effectively.
+    > **Disclaimer:** This method is intended for personal educational use to manage burst workloads. Excessive use of the free tier across multiple projects may be flagged by Google. Use responsibly.
 
 ### Phase 2: Backend (Cloudflare)
 1.  Create a free [Cloudflare Worker](https://workers.cloudflare.com/).
